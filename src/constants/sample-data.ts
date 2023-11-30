@@ -1,0 +1,63 @@
+export default {
+    agencyLocations: [
+      {
+        code: "00000098",
+        id: 123456,
+        status: "Open",
+        name: "A-1 Insurance",
+        address: "123 Main St, Euclid, OH 44123",
+        isAssociatedLocation: true,
+        isAdmin: false,
+      },
+      {
+        code: "00007641",
+        id: 234567,
+        status: "Open",
+        name: "C-1 Insurance",
+        address: "789 Main St, Euclid, OH 44123",
+        isAssociatedLocation: false,
+        isAdmin: false,
+      },
+      {
+        code: "00069137",
+        id: 345678,
+        status: "Closed",
+        name: "A-2 Insurance",
+        address: "123 Main St, Euclid, OH 44123",
+        isAssociatedLocation: true,
+        isAdmin: false,
+      },
+      {
+        code: "00000576",
+        id: 456789,
+        status: "Closed",
+        name: "B-1 Insurance",
+        address: "456 Main St, Euclid, OH 44123",
+        isAssociatedLocation: false,
+        isAdmin: false,
+      },
+      {
+        code: "00441349",
+        id: 567890,
+        status: "Merged",
+        name: "B-2 Insurance",
+        address: "456 Main St, Euclid, OH 44123",
+        isAssociatedLocation: false,
+        isAdmin: false,
+      },
+    ],
+    agencyLocationsHeaders: [
+      { text: 'Agency Code', align: 'start', value: 'code', width: '12%' },
+      { text: "IsAssoc", align: "start", value: "isAssociatedLocation", width: "12%" },
+      { text: "Agency Status", align: "start", value: "status", width: "12%" },
+      { text: "Agency Name", align: "start", value: "name", width: "30%" },
+      { text: "Agency Location",  align: "start", value: "address" },
+      { text: "IsAdmin", align: "start", value: "isAdmin" },
+    ],
+    locationHeaders: [
+      { text: 'Agency Code', align: 'start', value: 'code' },
+      { text: "IsAssoc", align: "start", value: "isAssociatedLocation" },
+      { text: "Agency Name", align: "start", value: "name" },
+      { text: "IsAdmin", align: "start", value: "isAdmin" },
+    ]
+  }
